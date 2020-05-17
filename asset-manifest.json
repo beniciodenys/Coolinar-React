@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/coolinar-react/static/css/main.98759227.chunk.css",
+    "main.css": "/coolinar-react/static/css/main.f9cf8828.chunk.css",
     "main.js": "/coolinar-react/static/js/main.ea9b07d7.chunk.js",
     "main.js.map": "/coolinar-react/static/js/main.ea9b07d7.chunk.js.map",
     "runtime-main.js": "/coolinar-react/static/js/runtime-main.27275665.js",
@@ -8,9 +8,9 @@
     "static/js/2.cf8edac2.chunk.js": "/coolinar-react/static/js/2.cf8edac2.chunk.js",
     "static/js/2.cf8edac2.chunk.js.map": "/coolinar-react/static/js/2.cf8edac2.chunk.js.map",
     "index.html": "/coolinar-react/index.html",
-    "precache-manifest.b1785fd5d9721cddc7af65abee574a72.js": "/coolinar-react/precache-manifest.b1785fd5d9721cddc7af65abee574a72.js",
+    "precache-manifest.ab58e69c8aeb8e364113f576cec9f675.js": "/coolinar-react/precache-manifest.ab58e69c8aeb8e364113f576cec9f675.js",
     "service-worker.js": "/coolinar-react/service-worker.js",
-    "static/css/main.98759227.chunk.css.map": "/coolinar-react/static/css/main.98759227.chunk.css.map",
+    "static/css/main.f9cf8828.chunk.css.map": "/coolinar-react/static/css/main.f9cf8828.chunk.css.map",
     "static/js/2.cf8edac2.chunk.js.LICENSE.txt": "/coolinar-react/static/js/2.cf8edac2.chunk.js.LICENSE.txt",
     "static/media/footer-logo.jpg": "/coolinar-react/static/media/footer-logo.1bfeb229.jpg",
     "static/media/index.css": "/coolinar-react/static/media/main-food-pic.90e491c0.jpg",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.27275665.js",
     "static/js/2.cf8edac2.chunk.js",
-    "static/css/main.98759227.chunk.css",
+    "static/css/main.f9cf8828.chunk.css",
     "static/js/main.ea9b07d7.chunk.js"
   ]
 }
