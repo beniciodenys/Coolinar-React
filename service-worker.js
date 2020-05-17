@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/coolinar-react/precache-manifest.447bf86761583b0583648f3a1df95405.js"
+  "/coolinar-react/precache-manifest.0e4fe60fd6666f73bef588f5d333a790.js"
 );
 
 self.addEventListener('message', (event) => {
