@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/coolinar-react/static/css/main.508a2111.chunk.css",
-    "main.js": "/coolinar-react/static/js/main.38803264.chunk.js",
-    "main.js.map": "/coolinar-react/static/js/main.38803264.chunk.js.map",
+    "main.js": "/coolinar-react/static/js/main.ea9b07d7.chunk.js",
+    "main.js.map": "/coolinar-react/static/js/main.ea9b07d7.chunk.js.map",
     "runtime-main.js": "/coolinar-react/static/js/runtime-main.27275665.js",
     "runtime-main.js.map": "/coolinar-react/static/js/runtime-main.27275665.js.map",
     "static/js/2.cf8edac2.chunk.js": "/coolinar-react/static/js/2.cf8edac2.chunk.js",
     "static/js/2.cf8edac2.chunk.js.map": "/coolinar-react/static/js/2.cf8edac2.chunk.js.map",
     "index.html": "/coolinar-react/index.html",
-    "precache-manifest.9928f4bf85be2fcd1df239924388a68c.js": "/coolinar-react/precache-manifest.9928f4bf85be2fcd1df239924388a68c.js",
+    "precache-manifest.4043279a5907c6d8e9e4c12da28e066b.js": "/coolinar-react/precache-manifest.4043279a5907c6d8e9e4c12da28e066b.js",
     "service-worker.js": "/coolinar-react/service-worker.js",
     "static/css/main.508a2111.chunk.css.map": "/coolinar-react/static/css/main.508a2111.chunk.css.map",
     "static/js/2.cf8edac2.chunk.js.LICENSE.txt": "/coolinar-react/static/js/2.cf8edac2.chunk.js.LICENSE.txt",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.27275665.js",
     "static/js/2.cf8edac2.chunk.js",
     "static/css/main.508a2111.chunk.css",
-    "static/js/main.38803264.chunk.js"
+    "static/js/main.ea9b07d7.chunk.js"
   ]
 }
