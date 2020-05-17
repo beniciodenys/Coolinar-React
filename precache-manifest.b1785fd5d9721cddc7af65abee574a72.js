@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "70568fd12e128522aeca082618da15a7",
+    "revision": "a76d7632c484db24a69b30f5380f976e",
     "url": "/coolinar-react/index.html"
   },
   {
-    "revision": "a8d3d2256bcbbd0f1143",
-    "url": "/coolinar-react/static/css/main.508a2111.chunk.css"
+    "revision": "b2eec43185b5c5f708eb",
+    "url": "/coolinar-react/static/css/main.98759227.chunk.css"
   },
   {
     "revision": "47ee79eaae1da6b5249c",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/coolinar-react/static/js/2.cf8edac2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a8d3d2256bcbbd0f1143",
+    "revision": "b2eec43185b5c5f708eb",
     "url": "/coolinar-react/static/js/main.ea9b07d7.chunk.js"
   },
   {
