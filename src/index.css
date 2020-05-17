@@ -1,13 +1,232 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  font-family: "Roboto", "sans-serif";
+  background-color: #F5F5F5;
+  /*background-color: #88CCE4;*/
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.centered{
+  margin: 0 auto;
+  max-width: 1120px;
+  min-width: 320px;
+}
+
+.body {
+  margin-top: 50px;
+}
+
+/* STYLES FOR HEADER */
+.menu-bar {
+  display: none;
+  color: #fff;
+}
+.header-container {
+  background-color: #88cce4;
+  width: 100%;
+  padding: 16px 16px;
+  position: fixed;
+  position: fixed; /* Фиксированное позиционирование */
+  left: 0;
+  right: 0; /* Вся ширина */
+  top: 0; /* Положение сверху */
+  margin: 0;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: 2fr 2fr 1fr;
+  box-sizing: border-box; /* включает в шир. элементов все отступы, рамки и т.д.*/
+}
+.main-logo {
+  width: 163px;
+}
+.header-nav {
+  display: flex; /* проще выравнять элем. по вертикали (перек оси)*/
+  align-items: center;
+}
+.header-link {
+  margin: 0 7px;
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 11px;
+  letter-spacing: 3px;
+}
+.header-link:hover {
+  color: #333333;
+}
+.header-social-media {
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+.header-social-icon {
+  color: #333333;
+  margin: 0 8px;
+  text-decoration: none;
+}
+.header-social-icon:hover {
+  color: #ffffff;
+}
+
+.header-title {
+  color: #66fcf1;
+  padding: 0;
+  margin: 0;
+  font-size: 12px;
+  position: relative;
+}
+.header-name {
+  position: absolute;
+  margin-top: auto;
+  margin-bottom: auto;
+  top: 1;
+  bottom: 0;
+}
+
+/* styles for search bar */
+.search {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  align-items: flex-start;
+}
+.search-input {
+  height: 100%;
+  font-size: 0.8vw;
+}
+.search-btn {
+  width: 30px;
+  height: 30px;
+  justify-self: end;
+  border: none;
+  cursor: pointer;
+  background-color: #74abbe;
+  size: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+/* STYLES FOR LANDING PAGE */
+
+.landing-page {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(./images/main-food-pic.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.landing-page-recipe {
+  background-color: #fff;
+  width: 350px;
+  position: absolute;
+  bottom: 20vh;
+  left: 20vw;
+  text-align: center;
+  color: #333333;
+}
+.landing-page-recipe-btn {
+  position: absolute;
+  left: -50px;
+  top: -50px;
+  background-color: #88cce4;
+  color: #fff;
+  text-decoration: none;
+  width: 100px;
+  height: 100px;
+  border: 1px double rgb(144, 189, 212);
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px -2px rgba(0, 0, 0, 0.75);
+}
+.landing-page-recipe-btn p {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 20%;
+  vertical-align: middle;
+}
+
+/* STYLES FOR RECIPE LINKS */
+.recipe-links-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  
+  margin-bottom: 40px;
+}
+.recipe-link {
+  position: relative;
+  background-color: #fff;
+  width: 80%;
+  height: 450px;
+  box-shadow: 0px 0px 17px -2px rgba(0, 0, 0, 0.75);
+}
+.recipe-link__img {
+  width: 100%;
+}
+.recipe-link__marker {
+  position: absolute;
+  background-color: rgb(83, 220, 83); /* rgb(154, 212, 144) */
+  color: white;
+  padding: 10px;
+  border: 0px solid rgb(83, 220, 83); 
+  border-radius: 20px;
+  margin-top: -5%;
+  margin-left: -10%;
+}
+
+.recipe-link__desc{width: 50%;}
+/*
+.landing-page-img{
+  height: 100%;
+}*/
+
+/* styles for subscribe section */
+.subscribe {
+  background-color: #7fc0d8; /* #C9DC53 */
+  display: flex;
+  flex-direction: column; /* change direction of the main axis */
+  align-items: center;
+  padding: 10px 0 50px; /*???*/
+  
+}
+.subscribe-header {
+  color: #333333;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 30px;
+}
+.subscribe-input {
+  height: 50px;
+  box-sizing: border-box;
+  padding: 15px;
+}
+.subscribe-mail {
+  width: 240px;
+}
+.subscribe-btn {
+  width: 170px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #fff;
+  background-color: #333333;
+  border: none;
+  cursor: pointer;
+}
+
+/* styles for footer */
+
+.footer-container {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 2px solid #1f2833;
+  padding: 40px;
+}
+.footer-logo {
+  width: 140px;
+  bottom: 40px;
+  letter-spacing: 2px;
 }
