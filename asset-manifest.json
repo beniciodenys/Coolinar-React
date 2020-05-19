@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/coolinar-react/static/css/main.49fcddb6.chunk.css",
-    "main.js": "/coolinar-react/static/js/main.ea9b07d7.chunk.js",
-    "main.js.map": "/coolinar-react/static/js/main.ea9b07d7.chunk.js.map",
+    "main.css": "/coolinar-react/static/css/main.971318ad.chunk.css",
+    "main.js": "/coolinar-react/static/js/main.a13008f7.chunk.js",
+    "main.js.map": "/coolinar-react/static/js/main.a13008f7.chunk.js.map",
     "runtime-main.js": "/coolinar-react/static/js/runtime-main.27275665.js",
     "runtime-main.js.map": "/coolinar-react/static/js/runtime-main.27275665.js.map",
     "static/js/2.cf8edac2.chunk.js": "/coolinar-react/static/js/2.cf8edac2.chunk.js",
     "static/js/2.cf8edac2.chunk.js.map": "/coolinar-react/static/js/2.cf8edac2.chunk.js.map",
     "index.html": "/coolinar-react/index.html",
-    "precache-manifest.7d51785389160cb16d0ff0cb93599c38.js": "/coolinar-react/precache-manifest.7d51785389160cb16d0ff0cb93599c38.js",
+    "precache-manifest.5f6c9231853fcc00d788f5082962f589.js": "/coolinar-react/precache-manifest.5f6c9231853fcc00d788f5082962f589.js",
     "service-worker.js": "/coolinar-react/service-worker.js",
-    "static/css/main.49fcddb6.chunk.css.map": "/coolinar-react/static/css/main.49fcddb6.chunk.css.map",
+    "static/css/main.971318ad.chunk.css.map": "/coolinar-react/static/css/main.971318ad.chunk.css.map",
     "static/js/2.cf8edac2.chunk.js.LICENSE.txt": "/coolinar-react/static/js/2.cf8edac2.chunk.js.LICENSE.txt",
     "static/media/footer-logo.jpg": "/coolinar-react/static/media/footer-logo.1bfeb229.jpg",
     "static/media/index.css": "/coolinar-react/static/media/main-food-pic.90e491c0.jpg",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.27275665.js",
     "static/js/2.cf8edac2.chunk.js",
-    "static/css/main.49fcddb6.chunk.css",
-    "static/js/main.ea9b07d7.chunk.js"
+    "static/css/main.971318ad.chunk.css",
+    "static/js/main.a13008f7.chunk.js"
   ]
 }
